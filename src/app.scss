@@ -1,0 +1,36 @@
+@import "@picocss/pico/scss/pico"; /* To import only what you need from Pico [check the documentaion](https://picocss.com/docs/customization.html) */
+/* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+thead {
+    font-size: 90%;
+	position: sticky;
+	top: 0;
+	background: #182026;
+	z-index: 99999
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.bold {
+	font-weight: bold;
+}
+tr {
+	transition: background 169ms ease-in-out
+}
+tr:hover {
+	background: #ffffff08;
+}
+
+table tbody tr td:first-of-type {
+    background: #1f252a;
+    position: sticky;
+    left: 0;
+}
