@@ -15,10 +15,16 @@
 				key: c,
 				title: c,
 				value: v => {
+					const isProcent = v[c].split('%').length > 1
 					const liczba = !isNaN(Number(v[c]))
+
 					if(liczba) return Number(v[c])
-					else return v[c]
+					else {
+						if(isProcent) return Number(v[c].split('%')[0])
+						else return v[c]
+					}
 				},
+				renderValue: v => v[c],
 				sortable: true,
 				headerClass: 'bold'
 				// filterOptions: () => null
