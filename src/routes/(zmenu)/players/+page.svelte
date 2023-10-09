@@ -4,7 +4,6 @@
 	import playersCSV from '$lib/data/player_statistics.csv'
 
 	// const x = Papa.parse(playersCSV)
-	console.log(playersCSV)
 	const rows = playersCSV
 	let cols = []
 
@@ -15,7 +14,11 @@
 			return {
 				key: c,
 				title: c,
-				value: v => v[c],
+				value: v => {
+					const liczba = !isNaN(Number(v[c]))
+					if(liczba) return Number(v[c])
+					else return v[c]
+				},
 				sortable: true,
 				headerClass: 'bold'
 				// filterOptions: () => null
