@@ -36,11 +36,11 @@
 <div class="overall">
 	<div>
 		<h6>AVERAGE LENGTH</h6>
-		<span>19:10</span>
+		<span>19:02</span>
 	</div>
 	<div>
 		<h6>MEDIAN LENGTH</h6>
-		<span>18:58</span>
+		<span>18:17</span>
 	</div>
 	<div>
 		<h6>SHORTEST GAME</h6>
@@ -52,27 +52,27 @@
 	</div>
 	<div>
 		<h6>FIRST PICK WIN %</h6>
-		<span>46.4%</span>
+		<span>49.2%</span>
 	</div>
 	<div>
 		<h6>FIRST OBJECTIVE WIN %</h6>
-		<span>58.9%</span>
+		<span>59%</span>
 	</div>
 	<div>
 		<h6>BLUE SIDE WIN %</h6>
-		<span>55.4%</span>
+		<span>52.5%</span>
 	</div>
 	<div>
 		<h6>RED SIDE WIN %</h6>
-		<span>44.6%</span>
+		<span>47.5%</span>
 	</div>
 	<div>
 		<h6>FIRST FORT WIN %</h6>
-		<span>71.4%</span>
+		<span>68.9%</span>
 	</div>
 	<div>
 		<h6>FIRST KEEP WIN %</h6>
-		<span>87.5%</span>
+		<span>86.8%</span>
 	</div>
 </div>
 
